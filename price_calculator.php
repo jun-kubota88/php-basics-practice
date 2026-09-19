@@ -1,6 +1,4 @@
 <?php
-// src/index.php
-
 // ECサイトの合計金額計算
 $price = 80000;      // 商品単価
 $quantity = 2;      // 購入個数
@@ -25,5 +23,5 @@ echo "消費税（10%） " . $subtotal . "円". "<br>";  // 消費税（10%）:1
 
 // 税込み価格を計算
 $total = $subtotal * (1 + $tax_rate);
-echo "合計金額: " . $total . "円";  // 合計金額: 176,000円
+echo "<strong>合計金額: " . $total . "円</strong><br>";  // 合計金額: 176,000円
 ?>
