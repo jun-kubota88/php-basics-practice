@@ -1,27 +1,24 @@
 <?php
-// ECサイトの合計金額計算
-$price = 80000;      // 商品単価
-$quantity = 2;      // 購入個数
-$tax_rate = 0.10;   // 消費税率（10%）
-
-// 文字列を直接出力
-echo "商品名：ノートパソコン". "<br>";
-
-// 文字列を直接出力
-echo "単価：80,000円". "<br>";
-
-// 文字列を直接出力
-echo "数量：2個". "<br>";
+//変数を定義
+$product_name = "ノートパソコン";
+$price = 80000;
+$quantity = 2;
+$tax_rate = 0.1;
 
 // 小計を計算
 $subtotal = $price * $quantity;
-echo "小計: " . $subtotal . "円". "<br>";  // 小計:160,000円
-
-// 消費税を計算
-$subtotal = $price * $quantity * ($tax_rate);
-echo "消費税（10%） " . $subtotal . "円". "<br>";  // 消費税（10%）:16,000円
 
 // 税込み価格を計算
-$total = $subtotal * (1 + $tax_rate);
-echo "<strong>合計金額: " . $total . "円</strong><br>";  // 合計金額: 176,000円
+$tax_amount = $subtotal * $tax_rate;
+
+// 合計金額を計算
+$total = $subtotal + $tax_amount;
+
+//　画面に出力
+echo "商品名：" . $product_name . "<br>";
+echo "単価：" . $price . "円<br>";
+echo "数量：" . $quantity . "個<br>";
+echo "小計: " . $subtotal . "円<br>";
+echo "消費税(" . ($tax_rate * 100) . "%): " . $tax_amount . "円<br>";
+echo "<strong>合計金額：" . $total . "円</strong><br>";
 ?>
