@@ -8,7 +8,14 @@ COACHTECH 教材 Tutorial 7-1「PHPの基礎 ハンズオン演習」で作成�
 - PHP 8.x
 
 ## 学んだこと
-- （**教材を参考に作成しました。**）
+- （**変数の宣言と、整数・小数・文字列などのデータ型の使い分け**）
+- （**算術演算子を使った計算処理**）
+- （**文字列への変数の埋め込み**）
+
+## 詰まったポイントと解決方法
+- （**文字の改行部分で手こずりましたが、教材を参考に解決しました。**）
 
 ## 動作確認
-（**ブラウザでhttp://localhost:8000にアクセスして、ページが表示されることを確認しました。**）
+（**ブラウザで[http://localhost:8000](http://localhost:8000/7-1-6_hands-on/practice/price_calculator.php)にアクセスして、ページが表示されることを確認しました。**）
+<img width="1920" height="1128" alt="image" src="https://github.com/user-attachments/assets/3c811b62-f5dc-443e-97df-25005fc9fe7c" />
+
