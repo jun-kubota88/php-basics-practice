@@ -16,6 +16,6 @@ COACHTECH 教材 Tutorial 7-1「PHPの基礎 ハンズオン演習」で作成�
 - （**文字の改行部分で手こずりましたが、教材を参考に解決しました。**）
 
 ## 動作確認
-（**ブラウザで[http://localhost:8000](http://localhost:8000/7-1-6_hands-on/practice/price_calculator.php)にアクセスして、ページが表示されることを確認しました。**）
+（**ローカルホストにアクセスし、Web画面にて表示されることを確認しました。**）
 <img width="1920" height="1128" alt="image" src="https://github.com/user-attachments/assets/3c811b62-f5dc-443e-97df-25005fc9fe7c" />
 
