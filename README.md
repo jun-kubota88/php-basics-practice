@@ -15,6 +15,9 @@ COACHTECH 教材 Tutorial 7-1「PHPの基礎 ハンズオン演習」で作成�
 ## 詰まったポイントと解決方法
 - （**文字の改行部分で手こずりましたが、教材を参考に解決しました。**）
 
+## 開発の工夫
+- （**3桁区切りでカンマをつけるために、number_format関数を使いました。**）
+
 ## 動作確認
 （**ローカルホストにアクセスし、Web画面にて表示されることを確認しました。**）
 <img width="1920" height="1128" alt="image" src="https://github.com/user-attachments/assets/3c811b62-f5dc-443e-97df-25005fc9fe7c" />
